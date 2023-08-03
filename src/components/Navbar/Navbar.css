@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #88c3fe;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .navbar-nav {
+    margin-left: 100px;
+  }
+  
+  .Action-buttons{
+    margin-right: 90px;
+  }
+  .login{
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .login:hover{
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid;
+  }
+  .sign-up{
+    border-radius: 5px;
+  }
+  .sign-up:hover{
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 100px;
+  }
+
+  @media only screen and (max-width: 768px){
+    .navbar-brand{
+        margin-left: 10px;
+    }
+
+    .navbar-nav{
+        margin-left: 10px;
+    }
+ 
+
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000 !important;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #000000 !important;
+  }
+  
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    
+  }
+
+  .Action-buttons .nav-link{
+    color: #000000;
+  }
+
+  .Action-buttons .login{
+    border: 2px solid #000000;
+  }
+  
+  .Action-buttons .sign-up{
+    border: 2px solid #000000;
+  }
+  

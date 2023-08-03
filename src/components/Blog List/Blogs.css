@@ -1,0 +1,43 @@
+.blog-card {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 80px;
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  
+  .blog-image {
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: auto;
+    margin-right: 40px;
+  }
+  
+  .blog-content {
+    flex: 1;
+  }
+  
+  .blog-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .blog-description {
+    margin-bottom: 10px;
+  }
+  
+  .blog-link {
+    color: #00f;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .blog-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+  }
+  

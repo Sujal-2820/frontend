@@ -1,0 +1,29 @@
+.expand-carousel {
+    margin-top: -50px;
+    margin-bottom: -50px;
+    overflow: hidden;
+  }
+  
+  .expand-carousel .carousel-inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .expand-carousel .carousel-item {
+    height: calc(100vh - 100px);
+  }
+  
+  .expand-carousel .carousel-caption {
+    bottom: 50px;
+  }
+
+  @media (max-width: 850px) {
+    .expand-carousel .carousel-item {
+      height: calc(100vh - 200px);
+    }
+  
+    .expand-carousel .carousel-caption {
+      bottom: 20px;
+    }
+  }
+  
